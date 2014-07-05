@@ -1,0 +1,14 @@
+$ git clone https://github.com/ verissimop4/ Colher-Knife.git 
+# Clones seu fork do repositório para o diretório atual no terminal de
+$ cd Colher-Knife 
+# Muda o diretório ativo no prompt para o recém-clonado "Colher-Knife" diretório 
+$git add remoto montante https://github.com/octocat/Spoon-Knife.git 
+# Atribui o repositório original para uma chamada remota "a montante" 
+$git fetch montante 
+# Puxa em mudanças que não estão presentes em seu repositório local, sem modificar seus arquivos
+$origem git push mestre 
+# Empurra commits para o seu repositório remoto armazenados no GitHub
+$git fetch montante 
+# obtém todas as novas alterações a partir do repositório original 
+$git merge a montante / master 
+# Mescla as alterações buscadas em seus arquivos de trabalho
